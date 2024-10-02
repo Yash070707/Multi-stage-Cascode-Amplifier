@@ -1,0 +1,13 @@
+* SPICE3 file created from Rudra.ext - technology: scmos
+
+.option scale=90n
+
+M1000 w1 Vbias2 Vout vdd pfet w=298 l=4
++  ad=2.09n pd=0.61m as=2.09n ps=0.61m
+M1001 w3 Vbias3 Vout Gnd nfet w=32 l=4
++  ad=0.224n pd=78u as=0.224n ps=78u
+M1002 w3 Vinput gnd Gnd nfet w=26 l=4
++  ad=0.182n pd=66u as=0.182n ps=66u
+M1003 w1 Vbias1 vdd vdd pfet w=216 l=4
++  ad=1.51n pd=0.446m as=1.51n ps=0.446m
+C0 vdd 0 88.5f **FLOATING
